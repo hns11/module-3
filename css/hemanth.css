@@ -1,0 +1,80 @@
+
+h1{
+font-weight: bold;
+text-shadow: 1px 1px 1px #222;
+}
+.navbar-toggle{
+margin-top: -40px
+}
+
+ #collapsable-nav li a {
+text-decoration: none;
+color: black;
+}
+#header-nav{
+  background-color:grey;
+}
+section{
+    position: relative;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  section div{
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color:#F5F2F7;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 3px;
+
+  }
+   @media(min-width: 992px){
+    .col-lg-4{
+      float: left;
+      width: 33.3%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px){
+   .col-md-6{
+    float: left;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+   }
+   .col-md-12{
+    float: left;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+   }
+
+  }
+  @media(max-width: 767px){
+    .col-sm-12{
+      float: left;
+      width: 100%
+      margin-left:auto;
+      margin-right: auto;
+    }
+  }
+   .content-name{
+    float: right;
+    width: 70px;
+    background-color:#878719;
+    margin:0;
+    padding: 5px;
+  }
+  .content{
+    margin-top: 25px;
+    padding:0;
+  }
+  #collapsable-nav li a:hover , #collapsable-nav li a:active{
+    background-color: #F5F2F7;
+  }
